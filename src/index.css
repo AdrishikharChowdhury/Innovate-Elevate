@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Retropix";
+  src: url("./assets/fonts/Retropixel.otf") format("opentype");
+}
+body {
+  font-family: "Retropix", sans-serif;
+}
